@@ -78,8 +78,14 @@ h1, h2, h3 , h4, h5, h6, a, p {
     background-color: orange;
     border-color: orange;
 }
+.btn:hover { 
+    color: #fff !important; 
+    background-color: #666;
+    border-color: #666;
+}
+
   
-  /* STYLES FOR TEMPLATE PLEASE DO NOT TOUCH*/
+  /* STYLES FOR TEMPLATE*/
 .dropdown-menu {
     left: -97px;
   }
@@ -119,7 +125,7 @@ h1, h2, h3 , h4, h5, h6, a, p {
   }
   
   .sideAccent {
-    background: #007bff;
+    background: orange;
     width: 15px;
   }
   
@@ -129,10 +135,11 @@ h1, h2, h3 , h4, h5, h6, a, p {
   
   .imageContainer img {
     width: 100%;
+    height: 100%;
   }
   
   .emailContain {
-    background: url(../images/emailBG.jpg);
+    background: url(../images/mailing-backgroundi.jpeg);
     background-size: cover;
     display: flex;
     align-items: center;

@@ -63,15 +63,34 @@ h1, h2, h3 , h4, h5, h6, a, p {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-bottom: 1rem solid orange;
   }
 
-.display-4 {
-
+.about-me-title {
+    text-align: center;
+    padding: 15px;
 }
 
 .about-me {
-    /*STYLE THE TEXT*/
     text-align: center;
+    padding: 15px;
+    border-bottom: 1rem solid orange;
+}
+
+
+.my-skills-title {
+    text-align: center;
+    padding: 15px;
+}
+
+.my-skills {
+    text-align: justify;
+    padding: 15px;
+    border-bottom: 1rem solid orange;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 .btn-primary {
@@ -84,11 +103,17 @@ h1, h2, h3 , h4, h5, h6, a, p {
     border-color: #666;
 }
 
+.copyright {
+    background-color: #fff;
+    text-align: center;
+}
+
   
   /* STYLES FOR TEMPLATE*/
 .dropdown-menu {
     left: -97px;
   }
+
   footer {
     position: absolute;
     width: 100%;
@@ -99,10 +124,12 @@ h1, h2, h3 , h4, h5, h6, a, p {
   }
   .cardContainer {
     margin-top: 20px;
+    
   }
   .card {
     margin: 0 auto;
   }
+
   
   .content {
     padding: 50px;
